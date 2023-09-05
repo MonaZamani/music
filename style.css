@@ -1,0 +1,284 @@
+.alll{
+   display: flex;
+}
+.alll .left{
+    color: #000000;
+    margin-left: 3%;
+    margin-top: 3%;
+    position: fixed;
+   
+}
+.alll .left img{
+    width: 90px;
+    border-radius: 20%; 
+    filter: drop-shadow(10px 8px 6px #000);
+}
+ ul{
+    display: contents; 
+ }
+ i{
+  transition: 0.5s;
+}
+i:hover{
+    transform: scale(1.5,1.5);
+    filter: drop-shadow(10px 8px 6px #777777);
+    
+}
+.alll .rite{
+    width: 3000vh;
+    height: 200vh;
+    background-color:#F0F8FF ;
+    color: #000000;
+    opacity: 1;
+    margin-left: 15%;
+    border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+    transition: 1s;
+}
+.alll .rite:hover{
+    transform: scale(1,1);
+    
+}
+.alll .rite .home{
+    display: flex;
+}
+.alll .rite .home .header{
+   display: flex;
+   margin-left: 60%;
+   margin-top: 1.5%;
+}
+.alll .rite .home .header .iconn{
+    color: black;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+
+}
+.alll .rite .home .header  .iconn::before,
+.alll .rite .home .header  .iconn::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:#87CEEB ;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0.3;
+}
+.alll .rite .home .header  .iconn::before{
+    animation: pulse 2s ease-out infinite;
+}
+.alll .rite .home .header .iconn::after{
+    animation: pulse  2s 1s ease-out infinite;
+}
+@keyframes pulse{
+    100%{
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
+.alll .rite .home .header .serch{
+   display: flex;
+    width: 30vh;
+    height: 40%;
+    margin-left: 8%;
+    margin-top: 5%;
+    background: #F0F8FFff;
+    opacity: 0.9;
+    box-shadow: 1px 1px 6px 9px #87CEEB;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 1s;
+}
+.alll .rite .home .header .serch:hover{
+    background: #87CEEB;
+}
+.alll .rite .home .header .serch .lft{
+    margin-left: 3%;
+}
+.alll .rite  h1{
+    margin-left: 2%;
+}
+.alll .rite .kol{
+    display: flex;
+}
+.alll .rite .kol .box{
+    width: 55%;
+    height: 40%;
+    background:url(IMG_0372.JPG)no-repeat;
+    margin-left: 3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: drop-shadow(10px 8px 6px #777777);
+    }
+.alll .rite .kol .box h1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.alll .rite .kol .box h4{
+    margin-left: 1%;
+
+}
+.alll .rite .kol .box .one{
+    width: 20%;
+    height: 4vh;
+    background:#F0F8FF ;
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    text-align: center; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 1s;
+}
+.alll .rite .kol .box .one:hover{
+    box-shadow:1px 1px 6px 9px #c3ebfa ;
+}
+.alll .rite .kol .nop{
+    margin-left: 15%;
+}
+.alll .rite .kol .nop .tope .b{
+    display: flex;
+}
+.alll .rite .kol .nop .tope img{
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.alll .rite .tow{
+    display: flex;
+    margin-left: 5%;
+}
+.alll .rite  .tow p{
+margin-left: 40%;
+}
+.alll .rite .Three{
+    display: flex;
+}
+.alll .rite .Three .opn{
+    width: 50vh;
+    height: 20vh;
+    margin-left: 2%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 20px;
+}
+.alll .rite .Three .opne  img{
+    width: 50vh;
+    height: 20vh;
+    margin-left: 2%;
+    border-radius:6%;
+}
+.alll .rite .Three .opn .tex{
+   display: block;
+    width: 20vh;
+    height: 70px;
+    background-color: #F0F8FF;
+    opacity: 0.6 ;
+    margin-top: 5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   text-align: left;
+}
+.alll .rite .Three .opne .tex{
+    display: block;
+     width: 20vh;
+     height: 70px;
+     background-color: #F0F8FF;
+     opacity: 0.6 ;
+     margin-top: 15%;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+    text-align: left;
+ }
+
+.alll .rite .Three .tex  ul i{
+    margin-left: 70%;
+    margin-top: 5%;
+}
+.alll .rite .Three .music{
+    margin-left:  10%;
+    width: 50vh;
+    height: 30vh;
+}
+.alll .rite .trending{
+    display: flex;
+    margin-left: 5%;
+    
+}
+.alll .rite .trending p{
+    margin-left: 40%;
+}
+.alll .rite  .trend{
+    display:flex;
+    margin-left: 3%;
+}
+.alll .rite  .trend .nn .tr{
+    display: flex;
+    width: 100vh;
+}
+.alll .rite  .trend .nn  .tr img{
+    width: 100px;
+    margin-left: 5%;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+.alll .rite  .trend .nn .tr .icon{
+    margin-left: 40vh;
+    margin-top: 3%;
+    display: flex;
+    padding: 0;
+    
+}
+.alll .rite .trend .musicc{
+    margin-left: 4%;
+    margin-top: 3%;
+    height: 60vh;
+    width: 53vh;
+    border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+     text-align: center;
+     transition: 1s;
+}
+.alll .rite .trend .musicc:hover{
+    transform: scale(1.035,1.035);
+    filter: drop-shadow(10px 8px 6px #9ed6ff);
+    
+}
+.alll .rite .trend .musicc .et img{
+    width: 170px;
+    margin-top: 5%;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+.alll .rite .trend .musicc audio{
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
